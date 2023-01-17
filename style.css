@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px dotted black;
+    background-color: chocolate;
+    position: relative;
+}
+.box h1{
+    color: black;
+}
+h1{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 5%;
+    color: aqua;
+    /* z-index: 1; */
+}
